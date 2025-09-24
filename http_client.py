@@ -33,7 +33,7 @@ def download(url, output_file=None):
         raise Exception("Invalid HTTP response: no header-body separtor found")
     
     header = response[:header_end].decode(errors="ignore")
-    body = response[header_end+4] # skip the \r\n\r\n
+    body = response[:header_end+4] # skip the \r\n\r\n
 
     with open(output_file, "wb") as f:
         f.write(body)
