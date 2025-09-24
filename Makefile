@@ -1,13 +1,13 @@
 PYTHON = python3
 SCRIPT = http_client.py
 
-URL1 = http://zechuncao.com/teaching/csci4406/testfiles/test1.txt
-URL2 = http://zechuncao.com/teaching/csci4406/testfiles/test2.png
-URL3 = http://zechuncao.com/teaching/csci4406/testfiles/test3.txt
-URL4 = http://zechuncao.com/teaching/csci4406/testfiles/minig.zip
-URL5 = http://zechuncao.com/teaching/csci4406/testfiles/inffast.o
-URL6 = http://zechuncao.com/teaching/csci4406/testfiles/Makefile
-URL7 = http://zechuncao.com/teaching/csci4406/testfiles/25F_CSCI4406_900_Computer_Networks_Syllabus.pdf
+URL1 = https://zechuncao.com/teaching/csci4406/testfiles/test1.txt
+URL2 = https://zechuncao.com/teaching/csci4406/testfiles/test2.png
+URL3 = https://zechuncao.com/teaching/csci4406/testfiles/test3.txt
+URL4 = https://zechuncao.com/teaching/csci4406/testfiles/minig.zip
+URL5 = https://zechuncao.com/teaching/csci4406/testfiles/inffast.o
+URL6 = https://zechuncao.com/teaching/csci4406/testfiles/Makefile
+URL7 = https://zechuncao.com/teaching/csci4406/testfiles/25F_CSCI4406_900_Computer_Networks_Syllabus.pdf
 
 
 OUT1 = test1.txt
