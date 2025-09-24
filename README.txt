@@ -12,7 +12,9 @@ cat {Outputfile}
 
 OR
 
-
+cd IronOwls-hw2
+make (downloads all test files)
+make clean (removes them)
 
 Questions
 ---------
