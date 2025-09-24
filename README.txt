@@ -1,12 +1,18 @@
-GET /path/to/file HTTP/1.0\r\n
-Host: hostname\r\n
-User-Agent: http_client/1.0\r\n
-Connection: close\r\n
-\r\n
 
+For Mac/Win
 python http_client.py -u https://zechuncao.com/teaching/csci4406/testfiles/test1.txt -o test1.txt
 
-chmod +x http_client.py
+For Linux
+git clone https://github.com/Charisma-Ricarte/IronOwls_hw2.git (optional)
+cd IronOwls_hw2
+ls
+Check that these files are there (http_client.py  Makefile  README.txt)
+python3 http_client.py -u {URL} -o {Outputfile}
+cat {Outputfile}
+
+OR
+
+
 
 Questions
 ---------
