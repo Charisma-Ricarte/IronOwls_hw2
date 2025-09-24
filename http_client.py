@@ -46,7 +46,7 @@ def main():
     parser.add_argument("-o", "--output", required=True, help="Output file name")
     args = parser.parse_args()
 
-    download(args.url, arg.output)
+    download(args.url, args.output)
 
 if __name__ == "__main__":
     main()
